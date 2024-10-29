@@ -44,7 +44,7 @@ import {
 
 
 
-export const resumeURL = "https://drive.google.com/file/d/11X4HmtS47PPkIE2ohE1aslmzPHrmNkpM/view?usp=sharing";
+export const resumeURL = "https://drive.google.com/file/d/1hN6APET5_ZMvAXRyUGF8ZDa3NIaaKGZp/view?usp=sharing";
 export const navLinks = [
   {
     id: "about",
@@ -164,52 +164,52 @@ const technologies = [
 ];
 
 const educationData = [
-  { name: "Indian Institute of Information Technology, Sri City(IIITS)", branch: "BTech in Computer Science and Engineering (CSE)", date: "November 2021 - May 2025", cgpa: "CGPA : 8.13", image: IIITSlogo },
-  {
-    name: "Matoshri Junior College, Nashik, Maharashtra",
-    branch: "Higher Secondary Education (XII)",
-    date: "Aug 2019- Aug 2021",
-    cgpa: "Grade : 96.33%",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6kCVdxAIu_qz_z8jQuP3xSHyZiKoZ19wqg&s",
-  },
+  { name: "Indian Institute of Information Technology, Sri City(IIITS)", branch: "BTech in Computer Science and Engineering (CSE)", date: "November 2021 - May 2025", cgpa: "CGPA : 7.2", image: IIITSlogo },
+  // {
+  //   name: "Matoshri Junior College, Nashik, Maharashtra",
+  //   branch: "Higher Secondary Education (XII)",
+  //   // date: "Aug 2019- Aug 2021",
+  //   cgpa: "Grade : 96.33%",
+  //   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6kCVdxAIu_qz_z8jQuP3xSHyZiKoZ19wqg&s",
+  // },
 
-  { name: "Smt. H. G. Shroff High School, Nandurbar, Maharashtra", branch: "Secondary School Education (X)", date: "June 2018- May 2019", cgpa: "Grade : 95.00%", image: SHGS_School },
+  // { name: "Smt. H. G. Shroff High School, Nandurbar, Maharashtra", branch: "Secondary School Education (X)", date: "June 2018- May 2019", cgpa: "Grade : 95.00%", image: SHGS_School },
 
 ]
 
 const experiences = [
   {
     title: "Web Developer Intern",
-    company_name: "Pricemate Online Services Pvt. Ltd.",
-    icon: PricemateLogo,
+    company_name: "BizOAlly",
+    icon: "https://media.licdn.com/dms/image/v2/D4D0BAQEl-qOFP1Fm9A/company-logo_200_200/company-logo_200_200/0/1700422571199/bizoally_logo?e=1738195200&v=beta&t=iog2-xaCqHUj0_l6s73ay6gP9JRbAM2QlYxalRbXK5w",
     iconBg: "#383E56",
-    date: "Aug 2023 - Sept 2023",
+    date: "Jan 2024 - March 2024",
     points: [
-      "Collaborated to create an essential E-commerce platform using MERN stack for 3 different user types.",
-      "Enhanced backend with Node.js & Express.js to establish RESTful APIs, enabling seamless front-end to back-end communication.",
-      "Streamlined project management by effectively communicating progress, challenges, and solutions within the team.",
+      "Contributed to the user dashboard by developing 5 APIs for managing and updating user profiles, enhancing backend functionality and user experience",
+      "Worked on WebSocket for real-time chat, communication between users and the support team for issue resolution",
+      "Built APIs for reporting bugs and website issues, improving user feedback and enhancing site reliability.",
     ],
   },
   {
-    title: "Gradient: Core Member",
+    title: "Gradient:Member",
     company_name: "Programming Club of IIIT Sri City",
     icon: Gredient_IIITS_logo,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - July 2024",
+    date: "Jan 2023 - April 2024",
     points: [
-      "It is Programming club of IIIT SriCity. Worked as a Core Member in Academic year 2022-24 and now promoted as Technical Lead",
-      "Conducted 3 programming sessions and competitions for students to enhance their DSA coding skills.",
+      "It is Programming club of IIIT SriCity. Worked as a Member in Academic year 2023-24 and now promoted as Technical Lead",
+      "Conducted 4 programming sessions and competitions for students to enhance their DSA coding skills.",
     ],
   },
   {
-    title: "Student Life Council : Mess Secretary",
-    company_name: "Indian Institute of Information Technology, Sri City",
-    icon: IIITSlogo,
+    title: "Chegg Teaching Expert",
+    company_name: "Chegg India",
+    icon: "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_200_200/company-logo_200_200/0/1630649929088/chegg_inc__logo?e=1738195200&v=beta&t=Ne5erCYI0bs3LArERdYyjeh2B2PXwz1eKwHDPD09Wf4",
     iconBg: "#E6DEDD",
-    date: "Sept 2023 - Aug 2024",
+    date: "Aug 2023 - Present",
     points: [
-      "Played a key role in planning and coordinating various aspects of the mess as a Secretary.",
-      "Organized Abhisarga 2024 : The Annual fest of IIIT Sri city, led the accommodation team",
+      "Guided and supported students in understanding complex computer science concepts, offering personalized explanations to facilitate deeper learning and improve academic performance.",
+      "Solved diverse computer science problems daily, refining skills in algorithmic thinking, debugging, and technical communication, contributing to a 90%+ student satisfaction rate.",
     ],
   },
 ];

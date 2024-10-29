@@ -42,9 +42,9 @@ const Contact = () => {
         VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Kartik Patel",
+          to_name: "Virendra Yadav",
           from_email: form.email,
-          to_email: "patelkn1303@gmail.com",
+          to_email: "virenyadav453@gmail.com",
           message: form.message,
         },
         VITE_APP_EMAILJS_PUBLIC_KEY
