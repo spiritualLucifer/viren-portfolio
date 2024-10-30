@@ -39,7 +39,8 @@ import {
   Gredient_IIITS_logo,
   IR_Project_logo,
   BeSocial,
-  VelvetHomes
+  VelvetHomes,
+  CHM
 } from "../assets";
 
 
@@ -165,13 +166,13 @@ const technologies = [
 
 const educationData = [
   { name: "Indian Institute of Information Technology, Sri City(IIITS)", branch: "BTech in Computer Science and Engineering (CSE)", date: "November 2021 - May 2025", cgpa: "CGPA : 7.2", image: IIITSlogo },
-  // {
-  //   name: "Matoshri Junior College, Nashik, Maharashtra",
-  //   branch: "Higher Secondary Education (XII)",
-  //   // date: "Aug 2019- Aug 2021",
-  //   cgpa: "Grade : 96.33%",
-  //   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6kCVdxAIu_qz_z8jQuP3xSHyZiKoZ19wqg&s",
-  // },
+  {
+    name: "Smt. Chandibai Himathmal Mansukhani College",
+    branch: "Higher Secondary Education (XII)",
+    // date: "Aug 2019- Aug 2021",
+    cgpa: "Grade : 86%",
+    image: CHM,
+  },
 
   // { name: "Smt. H. G. Shroff High School, Nandurbar, Maharashtra", branch: "Secondary School Education (X)", date: "June 2018- May 2019", cgpa: "Grade : 95.00%", image: SHGS_School },
 

@@ -48,6 +48,7 @@ import Gredient_IIITS_logo from "./Gredient_IIITS_logo.jpeg"
 import IR_Project_logo from "./IR_Project_logo.png"
 import BeSocial from "./BeSocial.png"
 import VelvetHomes from "./VelvetHomes.png"
+import CHM from './CHM.png'
 
 export {
   Gredient_IIITS_logo,
@@ -96,5 +97,6 @@ export {
   ImagiAI,
   Chrome,
   IR_Project_logo,
-  Vicolab
+  Vicolab,
+  CHM
 };
