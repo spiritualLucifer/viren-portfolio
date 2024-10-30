@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
   PricemateLogo,
-  Fitwell,
+  Vicolab,
   ImagiAI,
   newsapp,
   IIITSlogo,
@@ -38,8 +38,8 @@ import {
   SHGS_School,
   Gredient_IIITS_logo,
   IR_Project_logo,
-  JavaCollegePredictor,
-  RestaurantFinder
+  BeSocial,
+  VelvetHomes
 } from "../assets";
 
 
@@ -268,9 +268,43 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FitWell",
+    name: "ViColab",
     description:
-      "Developed a full-stack web application, FitWell, combining fitness and e-commerce functionalities with three distinct dashboards (User, Admin, Company). Implemented advanced search and filtering features, integrated payment processing with Razorpay, and used Multer and Cloudinary for efficient file handling and storage.",
+      "Built a secure and interactive video conferencing platform with Clerk for authentication and session management, supporting 100+ participants. Integrated Stream.io for features like meeting scheduling, recording, screen sharing, and participant management, ensuring seamless communication. Designed a responsive interface with Next.js and Shadcn, enhancing user interaction with recording capabilities and participant pinning.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "ShadCN",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stream-API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Vicolab,
+    source_code_link: "https://github.com/spiritualLucifer/Vicolab",
+    project_url: "https://vicolab.vercel.app/",
+  },
+  {
+    name: "Velvet Homes",
+    description:
+      "Developed Velvet Homes, a full-stack e-commerce web app with three dashboards (User, Admin, Company) using ExpressJS for efficient routing. Integrated secure authentication with bcrypt, JWT tokens, and session handling, and added Stripe for seamless payment processing.",
     tags: [
       {
         name: "ReactJS",
@@ -281,37 +315,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "bootstarp",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "REST API",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodeJS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: Fitwell,
-    source_code_link: "https://github.com/Omkar-Khairnar/FitWell-ReactJS",
-    project_url: "https://fitwell-fitnessapp.vercel.app",
-  },
-  {
-    name: "Let's Find RestOurant",
-    description:
-      "Developed a web application for restaurant listings and searching, based on location and image search functionalities using Generative AI. A user-friendly interface for restaurant exploration, with options to filter by country, average spend, and cuisine types and seamless Pagination.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "white-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
+        name: "ExpressJS",
         color: "purple-text-gradient",
       },
       {
@@ -323,81 +327,93 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Generative AI",
+        name: "Stripe",
         color: "purple-text-gradient",
       },
       {
-        name: "Gemini API",
+        name: "ReduxJS",
         color: "purple-text-gradient",
       },
     ],
-    image: RestaurantFinder,
-    source_code_link: "https://github.com/KartikNP31/Restaurant-Listing-Searching.git",
-    project_url: "https://restaurant-listing-s-git-b67360-kartik-patels-projects-623afc4b.vercel.app/",
+    image: VelvetHomes,
+    source_code_link: "https://github.com/spiritualLucifer/eCom",
+    project_url: "https://velvet-wbd.vercel.app/",
   },
   {
-    name: "College Predictor",
+    name: "BeSocial",
     description:
-      "Developed a backend application that predicts colleges based on JEE Mains rank and user preferences using Java, MySQL, and JDBC. Designed and managed a database to handle user profiles, admin profiles, and college records, enabling efficient CRUD operations and rapid search across 25000+ records.",
-    tags: [
-      {
-        name: "Java",
-        color: "white-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JDBC",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Object-Oriented Programming",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaFX",
-        color: "green-text-gradient",
-      },
-    ],
-    image: JavaCollegePredictor,
-    source_code_link: "https://github.com/KartikNP31/CollegePredictorApplicationJAVA.git",
-    project_url: "https://github.com/KartikNP31/CollegePredictorApplicationJAVA.git",
+      "Built BeSocial, a social media app using ReactJS, ExpressJS, MongoDB, and WebSocket. Enabled robust user profile updates with NodeMailer for OTP generation and password resets, Multer for image uploads, and efficient user search functionality. Architected a real-time chat solution using WebSocket to enhance communication, handling 1000+ active users simultaneously.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "white-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "REST API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "nodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WebSocket",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "ContextAPI",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "nodeMailer",
+          color: "green-text-gradient",
+        },{
+          name: "Multer",
+          color: "pink-text-gradient",
+        }
+      ],
+    image: BeSocial,
+    source_code_link: "https://github.com/spiritualLucifer/BeSocial",
+    project_url: "https://github.com/spiritualLucifer/BeSocial",
   },
-  {
-    name: "Find My Doctor",
-    description:
-      "Developed a health domain Information Retrieval system for finding doctors based on user preferences, featuring search by city, specialty, and locality. The system displays the top 20 relevant results, integrates user feedback for improved relevance, and visualizes performance with a dynamic Precision-Recall (P-R) curve.",
-    tags: [
-      {
-        name: "Django",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Information Retrieval",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Web Scraping",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Html CSS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: IR_Project_logo,
-    source_code_link: "https://github.com/KartikNP31/Information-Retrieval-DoctorFinder.git",
-    project_url: "https://github.com/KartikNP31/Information-Retrieval-DoctorFinder.git",
-  },
-  
-  
-  
+  // {
+  //   name: "Find My Doctor",
+  //   description:
+  //     "Developed a health domain Information Retrieval system for finding doctors based on user preferences, featuring search by city, specialty, and locality. The system displays the top 20 relevant results, integrates user feedback for improved relevance, and visualizes performance with a dynamic Precision-Recall (P-R) curve.",
+  //   tags: [
+  //     {
+  //       name: "Django",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Python",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Information Retrieval",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "Web Scraping",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Html CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: IR_Project_logo,
+  //   source_code_link: "https://github.com/KartikNP31/Information-Retrieval-DoctorFinder.git",
+  //   project_url: "https://github.com/KartikNP31/Information-Retrieval-DoctorFinder.git",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects, volunteerExperience ,educationData};

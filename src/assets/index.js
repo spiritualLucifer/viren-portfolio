@@ -35,7 +35,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import vinnovate from "./vinnovate.png"
-import Fitwell from "./Fitwell.png"
+import Vicolab from "./Vicolab.png"
 import newsapp from "./newsapp.png"
 import IIITSlogo from "./IIITSlogo.png"
 import NSSlogo from "./NSSlogo.png"
@@ -46,15 +46,15 @@ import  SHGS_School  from "./SHGS_School.jpeg"
 import PricemateLogo from "./PricemateLogo.png"
 import Gredient_IIITS_logo from "./Gredient_IIITS_logo.jpeg"
 import IR_Project_logo from "./IR_Project_logo.png"
-import JavaCollegePredictor from "./JavaCollegePredictor.png"
-import RestaurantFinder from "./RestaurantFinder.png"
+import BeSocial from "./BeSocial.png"
+import VelvetHomes from "./VelvetHomes.png"
 
 export {
   Gredient_IIITS_logo,
-  RestaurantFinder,
+  VelvetHomes,
   PricemateLogo,
   SHGS_School,
-  JavaCollegePredictor,
+  BeSocial,
   clogo,
   logo,
   backend,
@@ -85,7 +85,6 @@ export {
   jobit,
   tripguide,
   vinnovate,
-  Fitwell,
   newsapp,
   IIITSlogo,
   NSSlogo,
@@ -96,5 +95,6 @@ export {
   sqllogo,
   ImagiAI,
   Chrome,
-  IR_Project_logo
+  IR_Project_logo,
+  Vicolab
 };
